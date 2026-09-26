@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# built
+build/
+dist/
+*.spec
+
+# model
+finetune_output/
+*.bin
+*.safetensors
+*.gguf
+
+# configuration
+config.json
+
+# temporary
+__pycache__/
+*.pyc
+.DS_Store
