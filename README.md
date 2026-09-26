@@ -59,7 +59,7 @@ desktop_pet/
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/你的用户名/desktop_pet.git
+git clone https://github.com/Zyx114514-Git/desktop_pet.git
 cd desktop_pet
 ```
 
