@@ -1,0 +1,20 @@
+# 核心依赖（桌宠运行必需）
+PyQt6>=6.6
+Pillow>=9.0           # 屏幕截图用
+
+# ===== 屏幕感知（OCR）可选依赖 =====
+# 安装后右键菜单开启"屏幕感知"，对话时自动截图识别屏幕文字
+#   pip install winocr
+winocr>=0.1.2
+
+# ===== 以下为 LLM 开源模型 + QLoRA 微调的可选依赖 =====
+# 不需要 LLM 功能可以不安装；需要时执行：
+#   pip install torch transformers peft bitsandbytes accelerate datasets trl
+#
+# torch>=2.0
+# transformers>=4.36
+# peft>=0.7
+# bitsandbytes>=0.41
+# accelerate>=0.25
+# datasets>=2.14
+# trl>=0.7
